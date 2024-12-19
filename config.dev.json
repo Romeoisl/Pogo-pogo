@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
     "email": "",
-    "password": "",
+    "password": "mypasswordiscomplicated",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -28,8 +28,8 @@
   "nickNameBot": "[ ? ] •➤ 𝙈𝘢𝘵𝘦𝘰 𝘾𝘩𝘢𝘵𝙗𝘰𝘵 I'm",
   "prefix": "?",
   "database": {
-    "type": "sqlite",
-    "uriMongodb": "",
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://mateochatbot:xdtL2bYQ9eV3CeXM@gerald.r2hjy.mongodb.net/MateoBot?retryWrites=true&w=majority&appName=Cluster0",
     "autoSyncWhenStart": false,
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
@@ -37,7 +37,7 @@
   "timeZone": "Africa/Lagos",
   "credentials": {
     "gmailAccount": {
-      "email": "romeobot555@gmail.com",
+      "email": "mateochatbot@gmail.com",
       "clientId": "695328982889-v1t85ej9aq1fvv0n4alp7rcbea9gkgvf.apps.googleusercontent.com",
       "clientSecret": "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",
       "refreshToken": "1//04EyH1gbNUVv5CgYIARAAGAQSNwF-L9IrqcPCQD2QsuhCQ2XprHCTMrTnVPI6WvT9i73nnoi4XqfAD0_yDoGW_gtWUdIeVtANzao",
@@ -57,7 +57,7 @@
     "enable": false,
     "port": 3001,
     "socket": {
-      "enable": true,
+      "enable": false,
       "channelName": "uptime",
       "verifyToken": ""
     }
