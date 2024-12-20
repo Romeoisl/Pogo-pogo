@@ -1,9 +1,9 @@
 {
   "facebookAccount": {
-    "email": "onyedikachigerald45@gmail.com",
-    "password": "Mateo-Chatbot404",
+    "email": "",
+    "password": "",
     "2FASecret": "",
-    "i_user": "100088351963173",
+    "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
@@ -25,7 +25,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "[ ? ] •➤ 𝙈𝘢𝘵𝘦𝘰 𝘾𝘩𝘢𝘵𝙗𝘰𝘵",
+  "nickNameBot": "[ ? ] •➤ 𝙈𝘢𝘵𝘦𝘰 ✧ 𝙏𝘳𝘢𝘴𝘩𝘺🎄",
   "prefix": "?",
   "database": {
     "type": "mongodb",
