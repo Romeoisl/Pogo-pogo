@@ -26,7 +26,7 @@
 - [📸 **Screenshots**](#-screenshots)
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
-
+- [📱 ***How to host on phone(termux)***](#-termux)
 <hr>
 
 ## 📝 **Note**
@@ -238,3 +238,11 @@ If you have major coding issues with this bot, please join and ask for help.
 - Do not monetize my source code (such as: buy and sell commands, buy and sell bots, call for donations, etc.)
 - Don't remove/edit my credits (author name) in my source code
 
+## 📱 **Termux**
+- steps to run on termux
+- running on termux, your **smart phone** must have at least 2gb ram and 32/64 gb storage to avoid crash of device
+```bash
+pkg install termux-boot
+pkg install nodejs-lts
+npm install pm2 -g
+```
