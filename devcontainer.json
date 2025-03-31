@@ -1,0 +1,27 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:14",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "ms-vscode.node-debug2"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "commands": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    {
+      "name": "Start Development Server",
+      "command": "npm start"
+    }
+  ]
+}
